@@ -1,0 +1,33 @@
+*{
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+}
+.bgDark{
+    background-color: #03071e;
+}
+.textDark{
+    color: #03071e;
+}
+.bgLight{
+    background-color: #ffba08;
+}
+.textLight{
+    color: #ffba08;
+}
+.bgtransparent{
+background-color: #212529;
+}
+#showResult{
+    display: none;
+    color: black;
+    position: fixed;
+    top: 250px;
+    left: 600px;
+    background-color: white;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.btn:focus {
+    background-color: #ffc107 !important;
+    color: black;
+}
